@@ -6,10 +6,10 @@ const Home = () => {
       <h1>React JS projects</h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
         </li>
         <li>
-          <Link to="/todolist">ToDoList</Link>
+          <Link to={`${process.env.PUBLIC_URL}/todolist`}>ToDoList</Link>
         </li>
       </ul>
     </div>
