@@ -17,7 +17,7 @@ const ToDoList = () => {
   return (
     <div class="container">
       <div>
-        <Link to="/"> 🔙뒤로가기</Link>
+        <Link to="/"> ⬅️뒤로가기</Link>
       </div>
       <h1>To do List</h1>
       <form onSubmit={onSubmit}>
