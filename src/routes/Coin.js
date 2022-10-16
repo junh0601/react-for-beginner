@@ -14,7 +14,7 @@ const Coin = () => {
       });
   });
   return (
-    <div class="container">
+    <div>
       <div>
         <Link to="/">⬅️뒤로가기</Link>
       </div>

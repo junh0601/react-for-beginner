@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div class="container">
+    <div>
       <hgroup>
         <h1>React JS 기초 과정 프로젝트 결과물</h1>
         <small>
@@ -17,6 +17,12 @@ const Home = () => {
         </li>
         <li>
           <Link to="/coin">코인 시세</Link>
+        </li>
+        <li>
+          <Link to="/hourstomins">시-분 변환기</Link>
+        </li>
+        <li>
+          <Link to="/movie">넷플릭스</Link>
         </li>
       </ul>
     </div>
